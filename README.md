@@ -10,6 +10,19 @@ Welcome to the official repository for the **Iscar Architecture**. This project 
 ### 1. The Zidon-Gideon Algebraic Anomaly
 The payload layer rejects traditional cryptographic syntax, compiling directly to low-level machine telemetry scripts. Data blocks are mapped into multivariate finite vector spaces, mutating dynamically at each node hop via an exponentially scaling complexity factor ($2^{25} \rightarrow 2^{50} \rightarrow 2^{200}$).
 
+##The Zidon Security Anomaly: Cascading 2^x Mathematical Tags
+
+[Original Zidon Packet]
+          │
+          ▼ (Bluetooth Handshake to Local Node 1)
+[Packaged Inside: 2^25 Algorithmic Tag] 
+          │
+          ▼ (Bluetooth Handshake to Local Node 2)
+[Packaged Inside: 2^50 Algorithmic Tag] 
+          │
+          ▼ (Pushed back to Global Star Proxy)
+[Packaged Inside: 2^200 Ultimate Vector Layer]
+
 ### 2. 15 × 15 Star Topology Fragmentation
 Payloads are shattered into 15 disjoint mathematical shares using a non-linear threshold polynomial sequence. Metadata tracking is completely neutralized by routing these fragments simultaneously across separate global SOCKS5 proxies and multi-path mixnets.
 
