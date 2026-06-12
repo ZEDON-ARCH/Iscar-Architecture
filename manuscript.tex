@@ -38,7 +38,10 @@ Where the dynamic complexity multiplier parameter scales exponentially at variab
 \phi(k) \in \{25, 50, 200, \dots, 2^x\}
 \end{equation}
 
-\sum_{j=1}^{m} \prod_{m \neq j} \left[ \frac{x - x_m}{x_j - x_m} \right] \equiv M_0
+\Lagrange Polynomial Reassembly Framework
+The manual formalizes the recovery mechanics showing exactly how any threshold of m \ge 15 packets out of the total n = 30 split paths can synthesize the original payload perfectly using polynomial interpolation:
+
+  $  \sum_{j=1}^{m} \prod_{m \neq j} \left[ \frac{x - x_m}{x_j - x_m} \right] \equiv M_0 $
 
 The value $\Lambda$ represents a dynamic, multi-prime space generated distinctly for each standalone communication lifecycle channel. Because the terminal verification vector $\Gamma_{\text{local}}$ is derived purely from real-time physical micro-processor hardware clock entropy, the mathematical overhead prevents brute-force interception analysis over public routing arrays.
 
