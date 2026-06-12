@@ -29,7 +29,7 @@ Payloads are shattered into 15 disjoint mathematical shares using a non-linear t
 ## Lagrange Polynomial Reassembly Framework
 The manual formalizes the recovery mechanics showing exactly how any threshold of m \ge 15 packets out of the total n = 30 split paths can synthesize the original payload perfectly using polynomial interpolation:
 
-     \sum_{j=1}^{m} \prod_{m \neq j} \left[ \frac{x - x_m}{x_j - x_m} \right] \equiv M_0
+$$    \sum_{j=1}^{m} \prod_{m \neq j} \left[ \frac{x - x_m}{x_j - x_m} \right] \equiv M_0 $$
 
 ### 3. Off-Grid Ad-Hoc Handoffs
 During localized network blackouts or cellular failure, nodes drop down to an ad-hoc layer, routing data packets through Bluetooth Low Energy (BLE) Mesh and Wi-Fi Direct to proximate devices completely off-grid.
