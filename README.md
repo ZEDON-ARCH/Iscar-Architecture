@@ -10,7 +10,7 @@ Welcome to the official repository for the **Iscar Architecture**. This project 
 ### 1. The Zidon-Gideon Algebraic Anomaly
 The payload layer rejects traditional cryptographic syntax, compiling directly to low-level machine telemetry scripts. Data blocks are mapped into multivariate finite vector spaces, mutating dynamically at each node hop via an exponentially scaling complexity factor ($2^{25} \rightarrow 2^{50} \rightarrow 2^{200}$).
 
-##The Zidon Security Anomaly: Cascading 2^x Mathematical Tags
+## The Zidon Security Anomaly: Cascading 2^x Mathematical Tags
 
 [Original Zidon Packet]
           │
@@ -25,6 +25,11 @@ The payload layer rejects traditional cryptographic syntax, compiling directly t
 
 ### 2. 15 × 15 Star Topology Fragmentation
 Payloads are shattered into 15 disjoint mathematical shares using a non-linear threshold polynomial sequence. Metadata tracking is completely neutralized by routing these fragments simultaneously across separate global SOCKS5 proxies and multi-path mixnets.
+
+## Lagrange Polynomial Reassembly Framework
+The manual formalizes the recovery mechanics showing exactly how any threshold of m \ge 15 packets out of the total n = 30 split paths can synthesize the original payload perfectly using polynomial interpolation:
+
+     \sum_{j=1}^{m} \prod_{m \neq j} \left[ \frac{x - x_m}{x_j - x_m} \right] \equiv M_0
 
 ### 3. Off-Grid Ad-Hoc Handoffs
 During localized network blackouts or cellular failure, nodes drop down to an ad-hoc layer, routing data packets through Bluetooth Low Energy (BLE) Mesh and Wi-Fi Direct to proximate devices completely off-grid.
